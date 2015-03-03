@@ -1,0 +1,68 @@
+/* ****************************************************
+ * Series topic
+ * ************************************************** */
+
+.separator {
+	padding: .1em 2em;
+	margin-bottom: 3.8em;
+	color: black;
+	background-color: $lynda-yellow;
+}
+
+.separator h4 {
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 110%;
+}
+ .series-topic {
+ 	padding-bottom: 2em;
+ 	color: white;
+ 	background: black;
+ }
+
+ .topic-lede {
+ 	max-width: 37.5em;
+ 	margin: 0 auto 4em;
+ 	font-size: 1.125em;
+
+ }
+
+ .series-topic .half {
+ 	position: relative;
+ 	padding-bottom: 2em;
+ 	background-color: hsl(0, 0%, 15%);
+ }
+
+.topic-description {
+	padding: 0 2em 2em;
+}
+ .series-topic a {
+ 	color: white;
+ 	text-decoration: none;
+ }
+
+.series-topic a:hover,
+.series-topic a:focus {
+	text-shadow: 2px 2px 2px hsla(0, 0%, 10%, .5);
+}
+
+ .series-topic article:hover,
+ .series-topic article:focus {
+ 	background-color: hsl(0, 0%, 40%);
+} 
+
+.more-link {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: .5em 2em;
+	text-align: center;
+	color: black;
+	font-size: 120%;
+	background-color: white;
+}
+
+.series-topic article:hover .more-link,
+ .series-topic article:focus .more-link {
+	text-shadow: none;
+}

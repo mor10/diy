@@ -1,0 +1,43 @@
+/* ****************************************************
+ * Intro section
+ * ************************************************** */
+
+ .intro {
+ 	padding: 1em 0;
+ 	background-color: $lynda-yellow;
+ }
+
+ .intro-title {
+ 	text-align: center;
+ }
+
+ @media screen and (min-width: 31.25em) {
+ 	.intro-title {
+ 		font-size: 3em;
+ 	}
+ }
+
+ @media screen and (min-width: 50em) {
+ 	.intro-title {
+ 		font-size: 5em;
+ 	}
+ }
+
+ .intro-blurb {
+ 	margin-bottom: 2em;
+ }
+
+
+ @media screen and (min-width: 31.25em) {
+ 	.intro-blurb {
+ 		max-width: 37.5em;
+ 		margin-right: auto;
+ 		margin-left: auto;
+ 	}
+ }
+
+ @media screen and (min-width: 50em) {
+ 	.intro-blurb p {
+		font-size: 1.25em;
+ 	}
+ }

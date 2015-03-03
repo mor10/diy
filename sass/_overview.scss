@@ -1,0 +1,57 @@
+/* ****************************************************
+ * Series overview
+ * ************************************************** */
+
+ .series-overview {
+ 	padding: 2em 0;
+ }
+
+ .overview-title {
+ 	text-align: center;
+ }
+
+.half {
+	background: hsl(0, 0%, 85%);
+	margin-bottom: 2em;
+}
+
+
+
+@media screen and (min-width: 40em) {
+	.halfnhalf {
+		@include flexbox();
+		justify-content: space-between;
+	}	
+
+	.half {
+		width: 48%;
+	}
+}
+ 
+.overview-sub {
+	padding: 1em;
+	margin: 0;
+	font-weight: 100;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+.mug {
+	width: 40%;
+	float: left;
+	margin-right: 1.4em;
+}
+
+@media screen and (min-width: 50em) {
+	.mug {
+		width: 40%;
+		float: left;
+		
+	}
+}
+.overview-content p {
+	padding: 1.4em;
+	margin: 0;
+}
+

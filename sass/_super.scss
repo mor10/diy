@@ -1,0 +1,12 @@
+/* ****************************************************
+ * Super header
+ * ************************************************** */
+
+ .super-header {
+ 	background: hsl(0, 0%, 0%);
+ }
+
+.super-header .wrapper {
+	@include flexbox();
+	justify-content: space-between;
+}

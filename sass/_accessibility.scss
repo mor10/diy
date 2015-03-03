@@ -1,0 +1,44 @@
+/* ****************************************************
+ * Accessibility and clearing
+ * ************************************************** */
+
+#skip-to-content {
+    padding: 1em;
+    position: absolute;
+    top: -40px;
+    left: 1em;
+    z-index: 1000;
+    color: white;
+}
+
+#skip-to-content:focus {
+    position: absolute;
+    top: 0;
+    background: #4593ff;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* "group" used as name for clearfix */
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    *zoom: 1;
+}
