@@ -1,0 +1,42 @@
+/* ****************************************************
+ * Single course styles
+ * ************************************************** */
+.intro-subtitle {
+	margin-bottom: -.5em;
+}
+
+.single .half {
+	padding-bottom: 0;
+}
+
+.single .overview-sub {
+	// color: black;
+	background: hsl(0, 0%, 15%);
+	// border-bottom: 1px solid hsl(0, 0%, 15%);
+}
+.box-links {
+	@include flexbox();
+	padding: 1%;
+}
+
+.box-links a {
+	margin: 1%;
+ 	width: 59%;
+ 	padding: 2em;
+ 	text-align: center;	
+ 	background-color: hsl(0, 0%, 20%);
+}
+
+.box-links a:hover {
+	background: hsl(0, 0%, 40%);
+}
+
+.box-links .icon {
+	padding: .5em;
+	font-size: 3em;
+}
+
+.series-topic.single article:hover,
+.series-topic.single article:focus {
+ 	background-color: hsl(0, 0%, 15%);
+} 

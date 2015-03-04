@@ -599,6 +599,10 @@ ul.show-menu {
   background-color: #FFD400;
 }
 
+.white {
+  background-color: white;
+}
+
 .separator h4 {
   font-weight: 100;
   text-transform: uppercase;
@@ -656,4 +660,50 @@ ul.show-menu {
 .series-topic article:hover .more-link,
 .series-topic article:focus .more-link {
   text-shadow: none;
+}
+
+/* ****************************************************
+ * Single course styles
+ * ************************************************** */
+.intro-subtitle {
+  margin-bottom: -.5em;
+}
+
+.single .half {
+  padding-bottom: 0;
+}
+
+.single .overview-sub {
+  background: #262626;
+}
+
+.box-links {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding: 1%;
+}
+
+.box-links a {
+  margin: 1%;
+  width: 59%;
+  padding: 2em;
+  text-align: center;
+  background-color: #333333;
+}
+
+.box-links a:hover {
+  background: #666666;
+}
+
+.box-links .icon {
+  padding: .5em;
+  font-size: 3em;
+}
+
+.series-topic.single article:hover,
+.series-topic.single article:focus {
+  background-color: #262626;
 }
