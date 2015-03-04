@@ -694,6 +694,10 @@ ul.show-menu {
   background-color: #333333;
 }
 
+.setup .box-links a {
+  width: 98%;
+}
+
 .box-links a:hover {
   background: #666666;
 }
