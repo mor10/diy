@@ -1,0 +1,700 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+/* ****************************************************
+ * Typographic scale for responsive screens
+ * ************************************************** */
+body {
+  font-size: 100%;
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+#page {
+  font-size: 1em;
+  /* equivalent to 16px */
+  line-height: 1.25;
+  /* equivalent to 20px */
+}
+
+@media (min-width: 43.75em) {
+  #page {
+    font-size: 1em;
+    /* equivalent to 16px */
+    line-height: 1.375;
+    /* equivalent to 22px */
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
+}
+
+@media (min-width: 43.75em) {
+  h1 {
+    font-size: 2.5em;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+  }
+}
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height and something more appropriate for display headings */
+  }
+}
+h2 {
+  font-size: 1.625em;
+  /* 1.625x body copy size = 26px */
+  line-height: 1.15384615;
+  /* 30px / 26px */
+}
+
+@media (min-width: 43.75em) {
+  h2 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+  }
+}
+@media (min-width: 56.25em) {
+  h2 {
+    font-size: 2.25em;
+    /* 2.25x body copy size = 36px */
+    line-height: 1.25;
+  }
+}
+h3 {
+  font-size: 1.375em;
+  /* 1.375x body copy size = 22px */
+  line-height: 1.13636364;
+  /* 25px / 22px */
+}
+
+@media (min-width: 43.75em) {
+  h3 {
+    font-size: 1.5em;
+    /* 1.5x body copy size = 24px */
+    line-height: 1.25;
+  }
+}
+@media (min-width: 56.25em) {
+  h3 {
+    font-size: 1.75em;
+    /* 1.75x body copy size = 28px */
+    line-height: 1.25;
+  }
+}
+h4 {
+  font-size: 1.125em;
+  /* 1.125x body copy size = 18px */
+  line-height: 1.11111111;
+}
+
+@media (min-width: 43.75em) {
+  h4 {
+    line-height: 1.22222222;
+    /* (22px / 18px */
+  }
+}
+blockquote {
+  font-size: 1.25em;
+  /* 20px / 16px */
+  line-height: 1.25;
+  /* 25px / 20px */
+}
+
+@media (min-width: 43.75em) {
+  blockquote {
+    font-size: 1.5em;
+    /* 24px / 16px = */
+    line-height: 1.45833333;
+    /* 35px / 24px */
+  }
+}
+p {
+  font-size: 1em;
+}
+
+@media (min-width: 43.75em) {
+  p {
+    font-size: 1.125em;
+  }
+}
+/* ****************************************************
+ * Global styles
+ * ************************************************** */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ****************************************************
+ * Accessibility and clearing
+ * ************************************************** */
+#skip-to-content {
+  padding: 1em;
+  position: absolute;
+  top: -40px;
+  left: 1em;
+  z-index: 1000;
+  color: white;
+}
+
+#skip-to-content:focus {
+  position: absolute;
+  top: 0;
+  background: #4593ff;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* "group" used as name for clearfix */
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  *zoom: 1;
+}
+
+/* ****************************************************
+ * Super header
+ * ************************************************** */
+.super-header {
+  background: black;
+}
+
+.super-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ****************************************************
+ * A11y drop-down
+ * ************************************************** */
+/* Top level nav */
+.nav {
+  float: left;
+  margin: 0;
+}
+
+/* Dropdowns */
+.nav ul {
+  position: absolute;
+  top: 2.5em;
+  left: -9999px;
+  opacity: 0;
+  transition: 0.1s linear opacity;
+  min-width: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  float: left;
+  position: relative;
+  list-style-type: none;
+}
+
+/* Top level nav items */
+.nav li > a {
+  float: left;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #FFD400;
+}
+
+/* Top level hover state, preserve hover state when hovering dropdown  */
+.nav li > a:hover,
+.nav li > a:focus,
+.nav li:focus > a,
+.nav li:hover > a {
+  background: #FFD400;
+  color: black;
+  outline: 0;
+}
+
+.nav li:hover ul,
+.nav li:focus ul,
+ul.show-menu {
+  left: 0;
+  opacity: 0.99;
+}
+
+.nav ul li {
+  float: none;
+  position: static;
+}
+
+.nav ul a {
+  float: none;
+  display: block;
+  font-size: 12px;
+  text-shadow: none;
+  transition: 0.1s linear all;
+  background-color: #FFD400;
+  color: black;
+}
+
+.nav ul a:hover,
+.nav ul a:focus {
+  background: black;
+  color: #FFD400;
+}
+
+/* ****************************************************
+ * Intro section
+ * ************************************************** */
+.intro {
+  padding: 1em 0;
+  background-color: #FFD400;
+}
+
+.intro-title {
+  text-align: center;
+}
+
+@media screen and (min-width: 31.25em) {
+  .intro-title {
+    font-size: 3em;
+  }
+}
+@media screen and (min-width: 50em) {
+  .intro-title {
+    font-size: 5em;
+  }
+}
+.intro-blurb {
+  margin-bottom: 2em;
+}
+
+@media screen and (min-width: 31.25em) {
+  .intro-blurb {
+    max-width: 37.5em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 50em) {
+  .intro-blurb p {
+    font-size: 1.25em;
+  }
+}
+/* ****************************************************
+ * Series overview
+ * ************************************************** */
+.series-overview {
+  padding: 2em 0;
+}
+
+.overview-title {
+  text-align: center;
+}
+
+.half {
+  background: #d9d9d9;
+  margin-bottom: 2em;
+}
+
+@media screen and (min-width: 40em) {
+  .halfnhalf {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .half {
+    width: 48%;
+  }
+}
+.overview-sub {
+  padding: 1em;
+  margin: 0;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.mug {
+  width: 40%;
+  float: left;
+  margin-right: 1.4em;
+}
+
+@media screen and (min-width: 50em) {
+  .mug {
+    width: 40%;
+    float: left;
+  }
+}
+.overview-content p {
+  padding: 1.4em;
+  margin: 0;
+}
+
+/* ****************************************************
+ * Series topic
+ * ************************************************** */
+.separator {
+  padding: .1em 2em;
+  margin-bottom: 3.8em;
+  color: black;
+  background-color: #FFD400;
+}
+
+.white {
+  background-color: white;
+}
+
+.separator h4 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 110%;
+}
+
+.series-topic {
+  padding-bottom: 2em;
+  color: white;
+  background: black;
+}
+
+.topic-lede {
+  max-width: 37.5em;
+  margin: 0 auto 4em;
+  font-size: 1.125em;
+}
+
+.series-topic .half {
+  position: relative;
+  padding-bottom: 2em;
+  background-color: #262626;
+}
+
+.topic-description {
+  padding: 0 2em 2em;
+}
+
+.series-topic a {
+  color: white;
+  text-decoration: none;
+}
+
+.series-topic a:hover,
+.series-topic a:focus {
+  text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.5);
+}
+
+.series-topic article:hover,
+.series-topic article:focus {
+  background-color: #666666;
+}
+
+.more-link {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: .5em 2em;
+  text-align: center;
+  color: black;
+  font-size: 120%;
+  background-color: white;
+}
+
+.series-topic article:hover .more-link,
+.series-topic article:focus .more-link {
+  text-shadow: none;
+}
+
+/* ****************************************************
+ * Single course styles
+ * ************************************************** */
+.intro-subtitle {
+  margin-bottom: -.5em;
+}
+
+.single .half {
+  padding-bottom: 0;
+}
+
+.single .overview-sub {
+  background: #262626;
+}
+
+.box-links {
+  display: flex;
+  padding: 1%;
+  border-radius: 3px 3px 4px 5px;
+}
+
+.box-links a {
+  margin: 1%;
+  width: 59%;
+  padding: 2em;
+  text-align: center;
+  background-color: #333333;
+}
+
+.setup .box-links a {
+  width: 98%;
+}
+
+.box-links a:hover {
+  background: #666666;
+}
+
+.box-links .icon {
+  padding: .5em;
+  font-size: 3em;
+}
+
+.series-topic.single article:hover,
+.series-topic.single article:focus {
+  background-color: #262626;
+}
