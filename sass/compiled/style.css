@@ -389,6 +389,11 @@ img {
   width: 1px;
 }
 
+.element-invisible {
+  text-indent: -9999em;
+  outline: 0;
+}
+
 /* "group" used as name for clearfix */
 .group:before,
 .group:after {
@@ -414,6 +419,13 @@ img {
 .super-header .wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.lynda-logo a {
+  display: block;
+  background-image: url("../img/lynda.png");
+  height: 39px;
+  width: 132px;
 }
 
 /* ****************************************************
@@ -697,4 +709,11 @@ ul.show-menu {
 .series-topic.single article:hover,
 .series-topic.single article:focus {
   background-color: #262626;
+}
+
+.footer {
+  padding: 1em;
+  text-align: center;
+  color: white;
+  background: #666;
 }

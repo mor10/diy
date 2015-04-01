@@ -11,3 +11,10 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+.lynda-logo a {
+	display: block;
+	background-image: url('../img/lynda.png');
+	height: 39px;
+	width: 132px;
+}

@@ -28,6 +28,11 @@
     width: 1px;
 }
 
+.element-invisible {
+    text-indent: -9999em;
+    outline: 0;
+}
+
 /* "group" used as name for clearfix */
 .group:before,
 .group:after {
